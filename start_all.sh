@@ -15,4 +15,4 @@ autogenstudio ui --host 0.0.0.0 --port 8081 &
 litellm --model ollama/$OLLAMA_MODEL &
 
 cd /app/backend
-sh start.sh &
+sh start.sh
